@@ -1,0 +1,11 @@
+variable:set(num,5)
+variable:set(str,"num: ")
+variable:add(str,$num)
+console:log($str)
+
+"Multiply num by 2"
+
+variable:multiply(num,2)
+variable:set(str,"num multiplied by 2: ")
+variable:add(str,$num)
+console:log($str)
